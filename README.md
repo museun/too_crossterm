@@ -1,6 +1,6 @@
 ## too_crossterm
 
-This ia a `Backend` and `EventReader` implementation for [`too`](https://crates.io/too).
+This ia a `Backend` and `EventReader` implementation for [`too`](https://crates.io/crates/too).
 
 Usage:
 

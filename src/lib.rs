@@ -20,7 +20,7 @@ use too::{
 /// |[`enable_line_wrap`](Self::enable_line_wrap)|false|
 /// |[`hook_panics`](Self::hook_panics)|false|
 ///
-/// # When using [`too`](https://crates.io/too)
+/// # When using [`too`](https://crates.io/crates/too)
 /// You'll likely want to keep most of the defaults.
 /// - [`ctrl_c_quits`](Self::ctrl_c_quits) can be set to `false`
 /// - [`hook_panics`](Self::hook_panics) can be set to `true`
