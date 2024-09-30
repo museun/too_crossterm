@@ -1,0 +1,14 @@
+[package]
+authors = [ "museun <museun@users.noreply.github.com>" ]
+description = "a crossterm backend for too"
+documentation = "https://docs.rs/too_crosster"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+name = "too_crossterm"
+readme = "README.md"
+repository = "https://github.com/museun/too_crossterm"
+
+[dependencies]
+crossterm = { version = "0.28.1", default-features = false, features = [ "events", "windows" ] }
+flume = { version = "0.11.0", default-features = false }
+too = { git = "https://github.com/museun/too", version = "0.1.0" }
